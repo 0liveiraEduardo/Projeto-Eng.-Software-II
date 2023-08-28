@@ -2,6 +2,8 @@
 
 ##Finder - Indicador de Filme Turbo 2000.
 
+##Participantes: Brennon Lima, Ruan Lopes, Caique Tavares, Eduardo de Oliveira Santos Pereira.
+
 ### Tecnlogias: React, NodeJS, Oracle e Python.
 
 #### Nosso projeto foi pensado a partir da indecisão de casais e/ou grupo de amigos em escolher um filme para assistir em uma noite de confraternização. O usuário poderá criar um grupo, que ele enviará o link para entrar aos seus amigos ou no caso de casais, para sua parceira(o).  
