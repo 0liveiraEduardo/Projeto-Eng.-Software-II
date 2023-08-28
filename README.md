@@ -1,6 +1,6 @@
 # ProjetoENG2
 
-##Indicador de Filme Turbo 2000.
+##Finder - Indicador de Filme Turbo 2000.
 
 ### Tecnlogias: React, NodeJS, Oracle e Python.
 
