@@ -2,7 +2,7 @@
 
 ##Finder - Indicador de Filme Turbo 2000.
 
-##Participantes: Brennon Moisés de Meira Lima, Caique Gomes Tavares,Eduardo de Oliveira Santos Pereira, Ruan Machado Lopes.
+##Participantes: Brennon Moisés de Meira Lima, Caique Antônio Gomes Tavares,Eduardo de Oliveira Santos Pereira, Ruan Machado Lopes.
 
 ### Tecnlogias: React, NodeJS, Oracle e Python.
 
