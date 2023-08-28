@@ -6,7 +6,7 @@
 * Brennon Moisés de Meira Lima
 * Caique Antônio Gomes Tavares
 * Eduardo de Oliveira Santos Pereira
-* Ruan Machado Lopes.
+* Ruan Machado Lopes
 
 ## Tecnlogias: 
 * React
@@ -21,7 +21,7 @@ Será oferecido a ele filmes que se encaixam nesses filtros, sendo exibido o nom
 Também será possível a criação de eventos, definindo as datas dessas noites de reunião do grupo, os membros poderão escolher se irão ou não nesse evento, ao escolher não comparecer, os filmes votados por esse membro não contará no ranking do grupo, porém, após o termino desse evento, as escolhas dele voltará a computar.
 
 ## Publico alvo:
-* Casais e grupos de amigos
+* Casais e grupos de amigos.
 
 ## Principais dores:
 * **Indecisão em Grupo**: Decidir qual filme assistir pode se tornar uma tarefa desafiadora quando várias pessoas têm opiniões diferentes. O aplicativo resolve essa dor ao proporcionar uma plataforma de votação que ajuda a chegar a um consenso de forma democrática.
