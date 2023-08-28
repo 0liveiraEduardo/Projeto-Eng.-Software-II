@@ -1,6 +1,6 @@
 # ProjetoENG2
 
-## Finder - Indicador de Filme Turbo 2000.
+## Finder
 
 ## Participantes:
 * Brennon Moisés de Meira Lima
