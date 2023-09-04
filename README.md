@@ -37,14 +37,14 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 
 ## Requisitos da primeira versão (MVP):
 *	Os usuários devem se registrar e fazer login para usar o aplicativo.
-*	Os usuários podem criar grupos para organizar sessões de cinema com amigos.
+*	Os usuários podem criar grupos para organizar sessões de filmes com amigos.
 *	Os grupos devem ter um nome e uma descrição.
 * Os grupos podem selecionar filmes a serem assistidos juntos.
+*	Os grupos podem agendar sessões de cinema em datas e horários específicos.
+*	Os membros do grupo devem receber notificações sobre a programação das sessões.
+*	Os horários de sessão devem ser intercalados para evitar sobreposição.
 *	Os usuários podem avaliar os filmes após a exibição.
 *	Após a sessão de cinema, os filmes podem ser marcados como assistidos pelo grupo.
-*	Os grupos podem agendar sessões de cinema em datas e horários específicos.
-*	Os horários de sessão devem ser intercalados para evitar sobreposição.
-*	Os membros do grupo devem receber notificações sobre a programação das sessões.
 *	Dois níveis de permissões de usuário:
 *	Membros normais podem criar e gerenciar grupos, agendar sessões e adicionar amigos.
 *	Administradores podem realizar todas as ações dos membros normais e convidar novos usuários para o aplicativo.
