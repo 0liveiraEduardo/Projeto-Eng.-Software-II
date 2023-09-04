@@ -42,14 +42,12 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 *	Os grupos devem ter um nome e uma descrição.
 * Os grupos podem selecionar filmes a serem assistidos juntos.
 *	Os grupos podem agendar sessões de cinema em datas e horários específicos.
-*	Os membros do grupo devem receber notificações sobre a programação das sessões.
+*	Os membros do grupo devem receber notificações sobre o agendamento das sessões.
 *	Os horários de sessão devem ser intercalados para evitar sobreposição.
-*	Os usuários podem avaliar os filmes após a exibição.
 *	Após a sessão de cinema, os filmes podem ser marcados como assistidos pelo grupo.
-*	Dois níveis de permissões de usuário:
-*	Membros normais podem criar e gerenciar grupos, agendar sessões e adicionar amigos.
-*	Administradores podem realizar todas as ações dos membros normais e convidar novos usuários para o aplicativo.
+*	Os usuários podem avaliar os filmes após a exibição.
 *	Integrar uma API de filmes para obter informações sobre filmes, incluindo títulos, sinopses e imagens.
+
 
 ## Observações:
 * Os filmes marcados como assistidos devem ser registrados no histórico do grupo.
