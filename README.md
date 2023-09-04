@@ -30,7 +30,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 
 ## Forma de monetização: 
 * O aplicativo será monitazado através do google ads.
-* Plano pago que contará com a possibilidade de criar mmais de dois grupos e versão sem anúncios.
+* Plano pago que contará com a possibilidade de criar mais de dois grupos e versão sem anúncios.
 
 # Briefing Finder:
 ## Contexto: Finder.
