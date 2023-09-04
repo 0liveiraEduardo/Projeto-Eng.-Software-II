@@ -49,9 +49,6 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 ###	Agenda de Sessões:
 *	Os grupos podem agendar sessões de cinema em datas e horários específicos.
 *	Os horários de sessão devem ser intercalados para evitar sobreposição.
-###	Restrições de Agendamento:
-*	O sistema não deve permitir o agendamento de sessões fora do horário de funcionamento (por exemplo, das 8:00 às 23:00).
-*	Não deve ser possível agendar duas sessões no mesmo horário.
 ###	Notificações:
 *	Os membros do grupo devem receber notificações sobre a programação das sessões e as atualizações dos filmes.
 ###	Chat de Grupo:
