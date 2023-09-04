@@ -31,9 +31,9 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 ## Forma de monetização: 
 * O aplicativo será monitazado através do google ads.
 
-# Briefing Sistema de Agendamento:
+# Briefing Finder:
 ## Contexto: Finder.
-* Um novo aplicativo projetado para simplificar a experiência de encontrar filmes, proporcionando uma solução inovadora para o desafio de selecionar o filme perfeito para uma noite de entretenimento compartilhado: permite aos usuários criar grupos para escolher, avaliar e marcar filmes como assistidos juntos. O aplicativo visa oferecer uma experiência colaborativa para assistir filmes, facilitando a organização de sessões de cinema em grupo.
+* Um novo aplicativo projetado para simplificar a experiência de encontrar filmes, proporcionando uma solução inovadora para o desafio de selecionar o filme perfeito para uma noite de entretenimento compartilhado: Permite aos usuários criar grupos para escolher, avaliar e marcar filmes como assistidos juntos, além de buscar filmes por gênero. O aplicativo visa oferecer uma experiência colaborativa para assistir filmes, facilitando a organização de sessões em grupo.
 
 ## Requisitos da primeira versão (MVP):
 *	Os usuários devem se registrar e fazer login para usar o aplicativo.
@@ -48,7 +48,17 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 *	Dois níveis de permissões de usuário:
 *	Membros normais podem criar e gerenciar grupos, agendar sessões e adicionar amigos.
 *	Administradores podem realizar todas as ações dos membros normais e convidar novos usuários para o aplicativo.
-*	O layout do aplicativo deve ser adequado para celulares Android e IOS.
 *	Integrar uma API de filmes para obter informações sobre filmes, incluindo títulos, sinopses e imagens.
+
+## Observações:
+* Os filmes marcados como assistidos devem ser registrados no histórico do grupo.
+* Os usuários podem atualizar suas preferências de filmes em seus perfis.
+* Opção de buscar filmes por gênero, diretor ou ator.
+* Manter histórico de sessões passadas e avaliações de filmes.
+* Recomendações personalizadas com base nas avaliações dos filmes.
+
+## Responsividade:
+*	O layout do aplicativo deve ser adequado para celulares Android e iOS.
+*	Versões posteriores do Android 5(Lollipop) e iOS 9.0.
 
 
