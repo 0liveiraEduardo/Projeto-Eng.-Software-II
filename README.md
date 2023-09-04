@@ -36,30 +36,20 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 * Um novo aplicativo projetado para simplificar a experiência de encontrar filmes, proporcionando uma solução inovadora para o desafio de selecionar o filme perfeito para uma noite de entretenimento compartilhado: permite aos usuários criar grupos para escolher, avaliar e marcar filmes como assistidos juntos. O aplicativo visa oferecer uma experiência colaborativa para assistir filmes, facilitando a organização de sessões de cinema em grupo.
 
 ## Requisitos da primeira versão (MVP):
-### Registro e Autenticação:
 *	Os usuários devem se registrar e fazer login para usar o aplicativo.
-### Criação de Grupos:
 *	Os usuários podem criar grupos para organizar sessões de cinema com amigos.
 *	Os grupos devem ter um nome e uma descrição.
-### Escolha e Avaliação de Filmes:
 * Os grupos podem selecionar filmes a serem assistidos juntos.
 *	Os usuários podem avaliar os filmes após a exibição.
-###	Marcar Filmes como Assistidos:
 *	Após a sessão de cinema, os filmes podem ser marcados como assistidos pelo grupo.
-###	Agenda de Sessões:
 *	Os grupos podem agendar sessões de cinema em datas e horários específicos.
 *	Os horários de sessão devem ser intercalados para evitar sobreposição.
-###	Notificações:
 *	Os membros do grupo devem receber notificações sobre a programação das sessões e as atualizações dos filmes.
-###	Chat de Grupo:
 *	Cada grupo deve ter um chat para facilitar a comunicação entre os membros.
-###	Permissões de Usuário:
 *	Dois níveis de permissões de usuário:
 *	Membros normais podem criar e gerenciar grupos, agendar sessões e adicionar amigos.
 *	Administradores podem realizar todas as ações dos membros normais e convidar novos usuários para o aplicativo.
-###	Responsividade:
 *	O layout do aplicativo deve ser adequado para larguras de tela a partir de 350px.
-###	Integração de API de Filmes:
 *	Integre uma API de filmes para obter informações sobre filmes, incluindo títulos, sinopses e imagens.
 
 
