@@ -30,3 +30,8 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 
 ## Forma de monetização: 
 * O aplicativo será monitazado através do google ads.
+
+# Briefing Sistema de Agendamento:
+## Contexto: Finder.
+* Um novo aplicativo projetado para simplificar a experiência de encontrar filmes, proporcionando uma solução inovadora para o desafio de selecionar o filme perfeito para uma noite de entretenimento compartilhado: permite aos usuários criar grupos para escolher, avaliar e marcar filmes como assistidos juntos. O aplicativo visa oferecer uma experiência colaborativa para assistir filmes, facilitando a organização de sessões de cinema em grupo.
+
