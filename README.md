@@ -60,4 +60,8 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 *	O layout do aplicativo deve ser adequado para celulares Android e iOS.
 *	Versões posteriores do Android 5(Lollipop) e iOS 9.0.
 
+## Casos de Uso:
+<img src="/img/casosdeuso.PNG">
+
+
 
