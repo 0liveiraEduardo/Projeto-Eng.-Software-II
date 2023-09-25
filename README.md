@@ -64,7 +64,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 <img src="/img/casosdeuso.PNG">
 
 ## Protótipo da Tela Principal em Baixa Fidelidade:
-<img src="/img/Tela.PNG">
+<img src="/img/Tela.png">
 
 
 
