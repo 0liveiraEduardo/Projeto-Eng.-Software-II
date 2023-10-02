@@ -41,7 +41,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 *	Os usuários podem criar grupos para organizar sessões de filmes com amigos.
 *	Os grupos devem ter um nome e uma descrição.
 * Os grupos podem selecionar filmes a serem assistidos juntos.
-*	Os grupos podem agendar sessões de cinema em datas e horários específicos.
+*	Os grupos podem agendar sessões em datas e horários específicos.
 *	Os membros do grupo devem receber notificações sobre o agendamento das sessões.
 *	Os horários de sessão devem ser intercalados para evitar sobreposição.
 *	Após a sessão de cinema, os filmes podem ser marcados como assistidos pelo grupo.
