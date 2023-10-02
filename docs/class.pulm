@@ -1,0 +1,67 @@
+@startuml
+
+class Usuario
+{
+
+  id_usuario: long 
+  nome_usuario: string
+  email_usuario: string
+  senha_usuario: string
+
+}
+
+class Filme
+{
+
+   id_filme: long
+   nome_filme: string
+   genero_filme : string
+   data_lancamento: Date
+   sinopse_filme: string
+   elenco_filme: string
+   nota_filme: float
+
+}
+
+class Grupo
+{
+
+    id_grupo: long
+    nome_grupo: string
+    descricao: string
+    membro: 
+
+} 
+
+class Evento
+{
+
+    id_evento: long
+    dt_evento: dateTime
+    local: string
+
+} 
+
+class Preferencia
+{
+
+    id_preferencia: long
+    genero: string
+
+} 
+
+class Avaliacao
+{
+
+    nota_aval: float
+    replay: bool
+
+} 
+
+Usuario <|-- Filme
+Usuario <|-- Grupo
+Filme <|-- Avaliacao
+Grupo <--* Evento
+Grupo <--* Preferencia
+
+@enduml
