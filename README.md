@@ -67,5 +67,5 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 <img src="/img/Tela.png">
 
 ## Modelo Conceitual:
-<img scr="/img/class.png">
+<img src="/img/class.png">
 
