@@ -62,7 +62,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 *	Versões posteriores do Android 5(Lollipop) e iOS 9.0.
 
 ## Casos de Uso:
-<img src="/img/casosdeuso.PNG">
+<img src="/img/casos-de-uso.png">
 
 ## Protótipo da Tela Principal em Baixa Fidelidade:
 <img src="/img/Tela.png">
