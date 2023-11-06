@@ -32,7 +32,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 * O aplicativo será monitazado através do google ads.
 * A expectativa é que o aplicativo gere uma receita de US$1360 a cada 50000 vizualizações por mês.
 * Plano pago que contará com a possibilidade de criar mais de dois grupos e versão sem anúncios.
-* A expectativa é que o aplicativo gere uma recita de US$350 por mês com 70 assinantes.
+* A expectativa é que o aplicativo gere uma receita de R$350 por mês com 70 assinantes.
 # Briefing Finder:
 ## Contexto: Finder.
 * Um novo aplicativo projetado para simplificar a experiência de encontrar filmes, proporcionando uma solução inovadora para o desafio de selecionar o filme perfeito para uma noite de entretenimento compartilhado: Permite aos usuários criar grupos para escolher, avaliar e marcar filmes como assistidos juntos, além de buscar filmes por gênero. O aplicativo visa oferecer uma experiência colaborativa para assistir filmes, facilitando a organização de sessões em grupo.
