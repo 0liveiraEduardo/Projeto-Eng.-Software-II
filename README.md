@@ -30,7 +30,7 @@ Também será possível a criação de eventos, definindo as datas dessas noites
 
 ## Forma de monetização: 
 * O aplicativo será monitazado através do google ads.
-* A expectativa é que o aplicativo gere uma receita de US$1360 a cada 50000 vizualizações por mês.
+* A expectativa é que o aplicativo gere uma receita de RS$1360 a cada 50000 vizualizações por mês.
 * Plano pago que contará com a possibilidade de criar mais de dois grupos e versão sem anúncios.
 * A expectativa é que o aplicativo gere uma receita de R$350 por mês com 70 assinantes.
 # Briefing Finder:
