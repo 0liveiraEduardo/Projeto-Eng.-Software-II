@@ -8,78 +8,84 @@ class Usuario
   nome_usuario: string
   email_usuario: string
   senha_usuario: string
+  premium: bool
  
 }
- 
-class Filme
-{
- 
-   id_filme: long
-   nome_filme: string
-   genero_filme : string
-   data_lancamento: Date
-   sinopse_filme: string
-   elenco_filme: string
-   nota_filme: float
- 
-}
- 
+
 class Grupo
 {
  
     id_grupo: long
-    nome_grupo: string
+    nomeGrupo: string
     descricao: string
-    membro: 
+    id_genero: int
  
-} 
+}
+
+class Filme
+{
  
+   id_filme: long
+ 
+}
+
 class Evento
 {
- 
     id_evento: long
-    dt_evento: dateTime
+    data_evento: date
     local: string
- 
-} 
- 
+    descricao: string
+    id_grupo: long
+
+}
+
 class Genero
 {
+
+    id_genero: int
+    nome_genero: string
+
+}
+
+class Votacao
+{
  
-    id_preferencia: long
-    genero: string
+    id_votacao: long
+    id_usuario: long
+    id_filme: long
+    interesse: bool
  
 } 
  
-class Avaliacao
+class MeusFilmes
 {
-    nota_aval: float
-    replay: bool
-}
  
-class Escolher_Filme
-{
-    id_filme: long
+    id_meus_filme: long
     id_usuario: long
-    
-}
- 
-class Ranking
-{
     id_filme: long
-    posicao: int
+    avaliacao: int
  
+} 
+
+class Usuario_Grupo
+{
+
+    id_usuario_grupo: long
+    id_usuario: long
+    id_grupo: long
+    max_grupo: int
+
 }
- 
- 
-Usuario -- Escolher_Filme
-Escolher_Filme -- Filme
-Usuario -- Grupo
-Grupo o--> Ranking
-Ranking -- Filme
-Filme -- Avaliacao
-Grupo *--> Evento
-Grupo o--> Genero
-Filme o--> Genero
- 
+
+Usuario -- Votacao
+Votacao -- Filme
+Usuario -- MeusFilmes
+MeusFilmes -- Filme
+Usuario -- Usuario_Grupo
+Grupo -- Usuario_Grupo
+Filme -- Evento
+Filme -- Genero
+Genero -- Grupo
+Grupo -- Evento
+ 
 @enduml
