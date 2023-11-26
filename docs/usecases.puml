@@ -21,14 +21,12 @@ package Finder {
 
   usecase "Avaliar Filmes" as UC6
 
-  usecase "Meus Filmes" as UC7
-
-  usecase "Alimentar Filmes" as UC8
+  usecase "Alimentar Filmes" as UC7
 
 }
 
  
-a --> UC8
+a --> UC7
 
 g --> UC1
 
@@ -41,7 +39,5 @@ g --> UC4
 g --> UC5
 
 g --> UC6
-
-g --> UC7 
 
 @enduml
