@@ -57,10 +57,10 @@ class Votacao
  
 } 
  
-class MeusFilmes
+class Avaliacao
 {
  
-    id_meus_filme: long
+    id_avaliacao: long
     id_usuario: long
     id_filme: long
     avaliacao: int
@@ -79,13 +79,13 @@ class Usuario_Grupo
 
 Usuario -- Votacao
 Votacao -- Filme
-Usuario -- MeusFilmes
-MeusFilmes -- Filme
+Usuario -- Avaliacao
+Avaliacao -- Filme
 Usuario -- Usuario_Grupo
 Grupo -- Usuario_Grupo
 Filme -- Evento
 Filme -- Genero
 Genero -- Grupo
 Grupo -- Evento
- 
+
 @enduml
