@@ -31,15 +31,12 @@ class Evento
     hora_evento: time
     local: string
     id_grupo: long
- 
 }
  
 class Genero
 {
- 
     id_genero: int
     nome_genero: string
- 
 }
  
 class Votacao
