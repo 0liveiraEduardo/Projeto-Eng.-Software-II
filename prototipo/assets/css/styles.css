@@ -426,8 +426,7 @@ flex-container {
 }
 
 .margemevento {
-  margin-left: 120px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .localevento {
@@ -654,6 +653,7 @@ flex-container {
 
 .modal-body {
   padding: 2px 16px;
+  font-size: 14.4px;
 }
 
 .modal-footer {

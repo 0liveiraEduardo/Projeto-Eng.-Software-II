@@ -1,91 +1,70 @@
 @startuml modelo-conceitual
-
  
+
 class Usuario
 {
- 
   id_usuario: long 
   nome_usuario: string
   email_usuario: string
   senha_usuario: string
   premium: bool
- 
+  max_grupo: int
 }
-
+ 
 class Grupo
 {
- 
     id_grupo: long
     nomeGrupo: string
     descricao: string
     id_genero: int
- 
 }
-
+ 
 class Filme
 {
- 
    id_filme: long
- 
 }
-
+ 
 class Evento
 {
     id_evento: long
     data_evento: date
+    hora_evento: time
     local: string
-    descricao: string
     id_grupo: long
-
+ 
 }
-
+ 
 class Genero
 {
-
+ 
     id_genero: int
     nome_genero: string
-
+ 
 }
-
+ 
 class Votacao
 {
- 
     id_votacao: long
     id_usuario: long
     id_filme: long
     interesse: bool
- 
 } 
- 
 class Avaliacao
 {
- 
     id_avaliacao: long
     id_usuario: long
     id_filme: long
     avaliacao: int
- 
-} 
-
-class Usuario_Grupo
-{
-
-    id_usuario_grupo: long
-    id_usuario: long
-    id_grupo: long
-    max_grupo: int
-
 }
-
+ 
 Usuario -- Votacao
 Votacao -- Filme
 Usuario -- Avaliacao
 Avaliacao -- Filme
-Usuario -- Usuario_Grupo
-Grupo -- Usuario_Grupo
+Usuario -- Grupo
 Filme -- Evento
 Filme -- Genero
 Genero -- Grupo
 Grupo -- Evento
-
+ 
 @enduml
