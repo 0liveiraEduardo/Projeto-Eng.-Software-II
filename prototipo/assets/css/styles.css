@@ -765,3 +765,29 @@ ul.ks-cboxtags li input[type="checkbox"] {
 ul.ks-cboxtags li input[type="checkbox"]:focus+label {
   border: 2px solid #e9a1ff;
 }
+
+
+.premium {
+
+  color: #f9f9f9;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  padding: 20px 0px 1px 0px;
+  border-radius: 20px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerpremium {
+    max-width: 940px;
+    height: 500px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 75px;
+    border-radius: 20px;
+    background-color: #2f2f2f;
+
+}
