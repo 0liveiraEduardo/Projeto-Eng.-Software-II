@@ -68,9 +68,16 @@
                         <img src="assets/img/urso.jpeg" class="imagemrank">
                     </div>
                     <div>
-                        <h4></h4><input type="checkbox">
+                        <h4></h4><input type="checkbox" id="myCheckbox">
                         Marcar como assistido
                     </input>
+                    </div>
+                    <div class="rating hidden" id="hiddenInputs">
+                        <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -100,9 +107,16 @@
                         <img src="assets/img/bebegenio.jpeg" class="imagemrank">
                     </div>
                     <div>
-                        <h4></h4><input type="checkbox">
+                        <h4></h4><input type="checkbox" id="myCheckbox">
                         Marcar como assistido
                     </input>
+                    </div>
+                    <div class="rating hidden" id="hiddenInputs">
+                        <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -132,9 +146,16 @@
                         <img src="assets/img/internet.jpg" class="imagemrank">
                     </div>
                     <div>
-                        <h4></h4><input type="checkbox">
+                        <h4></h4><input type="checkbox" id="myCheckbox">
                         Marcar como assistido
                     </input>
+                    </div>
+                    <div class="rating hidden" id="hiddenInputs">
+                        <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -201,6 +222,23 @@
             modal3.style.display = "none";
         }
         };
+        
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtenha referências para o checkbox e os inputs ocultos
+            var checkbox = document.getElementById('myCheckbox');
+            var hiddenInputs = document.getElementById('hiddenInputs');
+
+            // Adicione um ouvinte de eventos para o evento 'change' do checkbox
+            checkbox.addEventListener('change', function () {
+                // Alterne a visibilidade dos inputs com base no estado do checkbox
+                if (checkbox.checked) {
+                    hiddenInputs.classList.remove('hidden');
+                } else {
+                    hiddenInputs.classList.add('hidden');
+                }
+            });
+        });
+
     </script>
 </body>
 

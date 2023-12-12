@@ -791,3 +791,21 @@ ul.ks-cboxtags li input[type="checkbox"]:focus+label {
     background-color: #2f2f2f;
 
 }
+
+.hidden {
+  display: none;
+}
+
+.espaco {
+  margin-bottom: 50px;
+}
+
+.confirma {
+  margin-left: 200px;
+  display: 40%;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+}
