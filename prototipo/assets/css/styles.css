@@ -657,6 +657,7 @@ flex-container {
   background-color: #323133;
   color: white;
   border-radius: 10px;
+  text-align: center;
 }
 
 .modal-body {
@@ -808,4 +809,9 @@ ul.ks-cboxtags li input[type="checkbox"]:focus+label {
 .cartao {
   display: flex;
   flex-direction: column;
+}
+
+.avaliar {
+  margin-bottom: 0px;
+  text-align: center;
 }
